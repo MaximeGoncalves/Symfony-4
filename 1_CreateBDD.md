@@ -1,13 +1,9 @@
-Gestion Utilisateurs
-======================
-
-Sommaire :
-====
+## Sommaire :
 1. [Création BDD](#Creation)
-2. [Connexion](#Connexion)
+2. [ConfigurationRouter](#ConfigurationRouter)
 
 # Creation de la base de données
----
+
 Pour créer la base de données, modifier le fichier **.env**
 
     DATABASE_URL=mysql://root:@127.0.0.1:3306/softeasesupport
@@ -254,7 +250,3 @@ class UsersFixtures extends Fixture
         ];
     }
 ```
-
-# Connexion
-**Utiliser ces utilisateurs**
----
